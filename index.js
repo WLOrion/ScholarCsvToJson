@@ -281,5 +281,5 @@ for(let i = 0; i < partial_output.length; i++)
     final_output.push(aux_dict);
 }
 
-//  Write the data formatted to JSON formate
+//  Write the data formatted to JSON file
 fs.writeFileSync("output.json", JSON.stringify(final_output, null, 2), 'utf8');
