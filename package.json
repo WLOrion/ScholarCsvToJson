@@ -1,0 +1,11 @@
+{
+  "name": "ScholarCsvToJson",
+  "author": "WLOrion",
+  "version": "1.1.1",
+  "description": "This is a simple script to convert a .csv file in a .json file",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "google-libphonenumber": "^3.2.18"
+  }
+}
