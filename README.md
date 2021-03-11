@@ -7,9 +7,13 @@ Some headers are expected if exit, how "phone ..." or "email".
 
 This input.csv:
 
-fullname,eid,email Student,phone Student,"email Pedagogical Responsible","phone Pedagogical Responsible","email Financial Responsible","phone Financial Responsible",group,group,invisible,see_all
-John Appleseed,104,john.appleseed@exemplo.com :(,kkkkkkk,dad.appleseed@exemplo.com,(11) 99991-1234,mom.appleseed@exemplo.com,(11) 99992-1234,Sala 1 / Sala 2,Sala 3,1,no
+...
+> fullname,eid,email Student,phone Student,"email Pedagogical Responsible","phone Pedagogical Responsible","email Financial Responsible","phone Financial Responsible",group,group,invisible,see_all
 
+> John Appleseed,104,john.appleseed@exemplo.com :(,kkkkkkk,dad.appleseed@exemplo.com,(11) 99991-1234,mom.appleseed@exemplo.com,(11) 99992-1234,Sala 1 / Sala 2,Sala 3,1,no
+...
+
+...
 Will product this output.json:
 
 [
@@ -66,5 +70,4 @@ Will product this output.json:
     "see_all": "false"
   }
 ]
-
-
+...
